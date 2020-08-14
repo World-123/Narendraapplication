@@ -5,7 +5,7 @@
 	<groupId>com.cangksolutions</groupId>
 	<artifactId>cangk</artifactId>
 	<packaging>war</packaging>
-	<version>1.1-RELEASE</version>
+	<version>1.1-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
@@ -32,23 +32,23 @@
 	<properties>
 	  <sonar.projectKey>narendrasingamaneni91_Narendraapplication</sonar.projectKey>
 	  <sonar.organization>narendrasingamaneni91</sonar.organization>
-	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	  <sonar.login>8a761c323506986cdb9df91be0e72543319004c0</sonar.login>
+	  <sonar.host.url>http://13.127.147.109:9000/</sonar.host.url>
+	  <sonar.login>6d6b55c0cdf3b3c246927dc266fcc3d6dfc4bb6b</sonar.login>
 	</properties>
 	
 	<build>
-		<finalName>cangkitsolutions</finalName>
+		<finalName>Qshoreapp</finalName>
 	</build>
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>DESKTOP-29T2KOJ-releases</name>
-        <url>http://localhost:8081/artifactory/testdevops</url>
+        <name>Qshore App Release Repository</name>
+        <url>http://13.127.245.193:8081/repository/Game_of_life-release</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>DESKTOP-29T2KOJ-snapshots</name>
-        <url>http://localhost:8081/artifactory/testdevops</url>
+        <name>Qshore App Snapshot Repository</name>
+        <url>http://13.127.245.193:8081/repository/Game_of_Life-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
 
