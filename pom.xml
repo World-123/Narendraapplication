@@ -30,9 +30,10 @@
 			
 	</dependencies>
 	<properties>
-	  <sonar.projectKey>narendrasingamaneni91_Narendraapplication</sonar.projectKey>
+<!--	  <sonar.projectKey>narendrasingamaneni91_Narendraapplication</sonar.projectKey>
 	  <sonar.organization>narendrasingamaneni91</sonar.organization>
 	  <sonar.host.url>http://13.127.147.109:9000/</sonar.host.url>
+-->
 	  <sonar.login>6d6b55c0cdf3b3c246927dc266fcc3d6dfc4bb6b</sonar.login>
 	</properties>
 	
