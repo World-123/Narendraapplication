@@ -12,7 +12,7 @@ checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleC
 stage('Build the package')
 {
 sh "${mavenHome}/bin/mvn clean package"
-}
+} 
 stage('Generate Sonar Report')
 {
 sh "${mavenHome}/bin/mvn sonar:sonar"
